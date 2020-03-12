@@ -25,7 +25,7 @@ class Job(DailyJob):
         datesNew = ["2015-01-01", "2014-01-01"]
 
         for d in datesNew:
-            url = "https://openexchangerates.org/api/historical/" + d + ".json?app_id=b343ecb895d34753a16ec07b423671bc"
+            url = "https://openexchangerates.org/api/historical/" + d + ".json?app_id="
             params = {
                 "symbols": "EUR,SEK,GBP,DKK,NOK,CHF",
             }
